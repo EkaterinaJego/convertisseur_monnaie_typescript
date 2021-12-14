@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur des monnaies</title>
+</head>
+<body>
+    <form class="formulaire">
+    <div>
+        <label> Montant : 
+        </label>
+        <input type="number" id="amount">
+    </div>
+    <div>
+        <label > Devise :
+        </label>
+         <select id="dev_init">
+             <option value="euro" >Euro</option>
+             <option value="dollar">Dollar</option>
+             <option  value="yuan">Yuan</option>
+             <option value="pound">Pound</option>
+        </select>  
+        
+    </div>
+    <div>
+        <label > Devise finale :
+        </label>
+         <select id="dev_final">
+             <option value="dollar" >Dollar</option>
+             <option value="euro" >Euro</option>
+             <option value="yuan">Yuan</option>
+             <option value="pound" >Pound</option>
+        </select>
+        
+    </div>
+</form>
+    <div >
+        <label id="result"> Resultat :</label>
+        <div></div>
+    </div>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
